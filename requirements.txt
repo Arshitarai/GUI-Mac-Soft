@@ -1,0 +1,10 @@
+psutil
+screen_brightness_control
+pycaw
+geopy
+timezonefinder
+requests
+pytz
+tkcalendar
+pyautogui
+comtypes
