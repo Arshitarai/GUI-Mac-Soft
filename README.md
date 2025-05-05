@@ -49,7 +49,7 @@ Toggle between light and dark UI themes across all open utility windows.
 
 ### Prerequisites
 
-- Python 3.6 or above
+- Python 3.13 or above
 - pip (Python package installer)
 
 ### Install Required Libraries
