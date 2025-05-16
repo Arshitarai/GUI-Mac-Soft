@@ -193,7 +193,7 @@ def weather():
          clock.config(text=current_time)
          name. config(text="CURRENT WEATHER")
 
-         api = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid=37746b64b7e7a20231ad112145655ed2"
+         api = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid="YOUR_API_KEY" "
          json_data = requests.get(api).json()
          if json_data.get("cod") != 200:
             raise ValueError(json_data.get("message", "City not found"))
